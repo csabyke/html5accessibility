@@ -1,0 +1,60 @@
+
+
+table.wwTable th.sortable {
+    cursor: pointer;
+    position: relative;
+    padding-right: 2.3em !important;
+}
+
+
+
+table.wwTable th.sortable span:after {
+    position: absolute;
+    color: #777;
+    opacity: 0.4;
+    right: 0.5em;
+    top: auto;
+    bottom: auto;
+    font-size: 75%;
+    font-weight: lighter;
+    content: "\2B06 \2B07";
+}
+
+table.wwTable th.sorted {
+    padding-right: 2.2em;
+}
+
+table.wwTable th.sorted span:after {
+    opacity: 1;
+}
+
+table.wwTable th.sorted_asc, th.sorted_desc {
+    padding-right: 1.6em;
+}
+
+table.wwTable th.sorted_asc span:after {content: "\2B07"; }
+table.wwTable th.sorted_0_asc span:after { content: "1\2B07"; }
+table.wwTable th.sorted_1_asc span:after { content: "2\2B07"; }
+table.wwTable th.sorted_2_asc span:after { content: "3\2B07"; }
+table.wwTable th.sorted_3_asc span:after { content: "4\2B07"; }
+table.wwTable th.sorted_4_asc span:after { content: "5\2B07"; }
+table.wwTable th.sorted_5_asc span:after { content: "6\2B07"; }
+table.wwTable th.sorted_6_asc span:after { content: "7\2B07"; }
+table.wwTable th.sorted_7_asc span:after { content: "8\2B07"; }
+table.wwTable th.sorted_8_asc span:after { content: "9\2B07"; }
+
+table.wwTable th.sorted_desc span:after { content: "\2B06"; }
+table.wwTable th.sorted_0_desc span:after { content: "1\2B06"; }
+table.wwTable th.sorted_1_desc span:after { content: "2\2B06"; }
+table.wwTable th.sorted_2_desc span:after { content: "3\2B06"; }
+table.wwTable th.sorted_3_desc span:after { content: "4\2B06"; }
+table.wwTable th.sorted_4_desc span:after { content: "5\2B06"; }
+table.wwTable th.sorted_5_desc span:after { content: "6\2B06"; }
+table.wwTable th.sorted_6_desc span:after { content: "7\2B06"; }
+table.wwTable th.sorted_7_desc span:after { content: "8\2B06"; }
+table.wwTable th.sorted_8_desc span:after { content: "9\2B06"; }
+
+.table-ultracondensed th,
+.table-ultracondensed td {
+    padding: 2px 5px;
+}
