@@ -19,19 +19,20 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container-fluid">
-            <a class="brand" href="#">Studienarbeit - GUI Test</a>
+            <a class="brand" href="#">Prototyp einer "Zugänglichen Webanwendung"</a>
             <ul class="nav">
                 <li class="dropdown">
                     <a url-Container class="dropdown-toggle" data-target="#" data-toggle="dropdown">
-                        Mitarbeiterverwaltung
+                        Formulare
                         <b class="caret"></b>
                     </a>
 
 
 
                     <ul class="dropdown-menu">
-                        <li><a url-Container="/mitarbeiter/lsg1">Lösung 1</a></li>
-                        <li><a url-Container="/mitarbeiter/lsg2">Lösung 2</a></li>
+                        <li><a url-Container="/form/login">Loginfeld</a></li>
+                        <li><a url-Container="/form/register">Registrationsfeld</a></li>
+                        <li><a url-Container="/form/reportform">Reporting Form</a></li>
 
                     </ul>
                 </li>
@@ -39,12 +40,12 @@
 
 
                 <li class="dropdown">
-                    <a ww-route class="dropdown-toggle" data-target="#" data-toggle="dropdown">
-                        Ereignissprotokoll
+                    <a url-Container class="dropdown-toggle" data-target="#" data-toggle="dropdown">
+                        Datendarstellung
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a url-Container="/ereignisprotokoll/lsg1">Lösung 1</a></li>
+                        <li><a url-Container="/table/einfach">Einfache Tabelle</a></li>
                         <li><a url-Container="/ereignisprotokoll/lsg2">Lösung 2</a></li>
 
                     </ul>
@@ -54,7 +55,7 @@
 
 
                 <li class="dropdown">
-                    <a ww-route class="dropdown-toggle" data-target="#" data-toggle="dropdown">
+                    <a url-Container class="dropdown-toggle" data-target="#" data-toggle="dropdown">
                         Leistungsnachweis
                         <b class="caret"></b>
                     </a>
@@ -69,7 +70,7 @@
 
 
                 <li class="dropdown">
-                    <a ww-route class="dropdown-toggle" data-target="#" data-toggle="dropdown">
+                    <a url-Container class="dropdown-toggle" data-target="#" data-toggle="dropdown">
                         Datenaustausch
                         <b class="caret"></b>
                     </a>
@@ -85,28 +86,33 @@
 
 
             </ul>
+            <p class="navbar-text pull-right">
+                <span class="label">Auge</span>
+            </p>
         </div>
+
+
     </div>
 </div>
 
 <div id="mainContainer" class="container-fluid">
     <div ng-view></div>
 </div>
-<!--
+
 <div class="navbar navbar-fixed-bottom">
     <div class="navbar-inner">
         <div class="container-fluid">
             <p class="navbar-text pull-left">
-                <span class="label label-important">Super important information</span>
-                <span class="label label-warning">Another information</span>
+                <span class="label label-important">WW</span>
+                <span class="label label-warning">Csaba Lengyel</span>
             </p>
             <p class="navbar-text pull-right">
-                <span class="label">&copy; WeigleWilczek GmbH 2012</span>
+                <span class="label">&copy; WeigleWilczek GmbH 2013</span>
             </p>
         </div>
     </div>
 </div>
-!-->
+
 
 <script type="text/javascript" src="./lib/angularjs/1.0.6/angular.js"></script>
 <script type="text/javascript" src="./script/demo.js"></script>

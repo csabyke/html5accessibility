@@ -2,10 +2,10 @@ angular.module("demo", [])
     .config(["$routeProvider",function ($routeProvider) {
     $routeProvider
         .when('/', { templateUrl: '/partials/welcome.html' })
-        .when('/mitarbeiter/lsg1', { templateUrl: '/partials/mitarbeiter/lsg1.html' })
-        .when('/mitarbeiter/lsg2', { templateUrl: '/partials/mitarbeiter/lsg2.html'})
-        .when('/ereignisprotokoll/lsg1', {templateUrl: '/partials/ereignisprotokoll/lsg1.html'})
-        .when('/ereignisprotokoll/lsg2', {templateUrl: '/partials/ereignisprotokoll/lsg2.html'})
+        .when('/form/login', { templateUrl: '/partials/form/login.html' })
+        .when('/form/register', { templateUrl: '/partials/form/register.html'})
+        .when('/form/reportform', {templateUrl: '/partials//form/reportform.html'})
+        .when('/table/einfach', {templateUrl: '/partials/table/einfach.html'})
         .when('/leistungsnachweis/lsg1', {templateUrl: '/partials/leistungsnachweis/lsg1.html'})
         .when('/leistungsnachweis/lsg2', {templateUrl: '/partials/leistungsnachweis/lsg2.html'})
         .when('/datenaustausch/lsg1', {templateUrl: '/partials/datenaustausch/lsg1.html'})
@@ -16,9 +16,9 @@ angular.module("demo", [])
     return {
         restrict: "A",
         link: function(scope, element, attr) {
-            if(attr.wwRoute != "") {
+            if(attr.urlContainer != "") {
                 scope.$on("$routeChangeSuccess", function() {
-                    var elementRoute = $route.routes[attr.wwRoute];
+                    var elementRoute = $route.routes[attr.urlContainer];
                     var currentRoute = $route.current.$route;
 
                     if (currentRoute && currentRoute == elementRoute) {
@@ -44,7 +44,7 @@ angular.module("demo", [])
                 );
             }
 
-            element.attr("href", "#" + attr.wwRoute);
+            element.attr("href", "#" + attr.urlContainer);
         }
     }
 }])
