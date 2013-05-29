@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3bcdcc22-0a7a-488e-bb63-5a1397d5cf6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/welcome.html" afterPath="$PROJECT_DIR$/partials/welcome.html" />
     </list>
     <ignored path="html5accessibility.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -347,7 +345,11 @@
       <created>1369814999077</created>
       <updated>1369814999077</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="setAttribute function wird definiert.">
+      <created>1369815052215</created>
+      <updated>1369815052215</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -408,7 +410,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Accessibibility.css wird erstellt." />
+    <option name="LAST_COMMIT_MESSAGE" value="setAttribute function wird definiert." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -425,6 +427,7 @@
     <MESSAGE value="unnötige Ordnern wurden gelöscht" />
     <MESSAGE value="Login und Registrationsforme werden vorbereitet" />
     <MESSAGE value="Accessibibility.css wird erstellt." />
+    <MESSAGE value="setAttribute function wird definiert." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
