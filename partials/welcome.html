@@ -6,6 +6,11 @@
         <div class="span10">
             Text
             a<br/>a<br/>a<br/>a<br/>a<br/>a<br/>a<br/>a<br/>
+            {{test}}
+            <p>Accesskey: {{accessKey}} . . . . . {{accessKey_a('a')}}</p>
+            <p>AccessKey: {{accessKey}} . . . . . {{accessKey_a('b')}}</p>
+            <p>SetAttribute: {{setAttribute(accessKey, "accesskey", "a")}}</p>
+            <p>Autofocus: {{setAttribute(autofocus, "autofocus", "on")}}</p>
         </div>
     </div>
 </div>

@@ -13,9 +13,11 @@
     <link rel="stylesheet/less" href="style/table.css"/>
     <!-- place less script here to execute it before dom is rendered! -->
     <script type="text/javascript" src="lib/less/1.3.0/less-1.3.0.min.js"></script>
+    <link rel="stylesheet" href="style/accessibility.css">
+>
 </head>
 
-<body>
+<body ng-controller="AccessibilityCtrl">
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container-fluid">
@@ -66,30 +68,38 @@
                     </ul>
                 </li>
 
+</ul>
+            <ul class="pull-right nav">
 
 
-
-                <li class="dropdown">
+                <li class="dropdown pull-right">
                     <a url-Container class="dropdown-toggle" data-target="#" data-toggle="dropdown">
-                        Datenaustausch
+                        AAA
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a url-Container="/datenaustausch/lsg1">Lösung 1</a></li>
-                        <li><a url-Container="/datenaustausch/lsg2">Lösung 2</a></li>
-
+                        <form>
+                            <li>
+                                <input type="checkbox" ng-model="accessKey"> Accesskey
+                            </li>
+                            <li>
+                                <input type="checkbox" ng-modal="autofocus"> Autofocus
+                            </li>
+                            <li>
+                                <input type="checkbox"> Fokus
+                            </li>
+                            <li>
+                                <input type="checkbox"> Hohe kontrast
+                            </li>
+                            <li>
+                                <input type="checkbox"> Bilder
+                            </li>
+                        </form>
                     </ul>
                 </li>
-
-
-
-
-
             </ul>
-            <p class="navbar-text pull-right">
-                <span class="label">Auge</span>
-            </p>
-        </div>
+
+
 
 
     </div>
