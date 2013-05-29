@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bcdcc22-0a7a-488e-bb63-5a1397d5cf6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/form/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/form/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/form/reportform.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/table/einfach.html" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\.idea\html5accessibility.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\WEB-INF\web.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/accessibility.css" />
+      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\datenaustausch\lsg1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\datenaustausch\lsg2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\ereignisprotokoll\lsg1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\ereignisprotokoll\lsg2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\leistungsnachweis\lsg1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\leistungsnachweis\lsg2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\mitarbeiter\lsg1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\mitarbeiter\lsg2.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/form/login.html" afterPath="$PROJECT_DIR$/partials/form/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/form/register.html" afterPath="$PROJECT_DIR$/partials/form/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/welcome.html" afterPath="$PROJECT_DIR$/partials/welcome.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/demo.js" afterPath="$PROJECT_DIR$/script/demo.js" />
     </list>
@@ -36,10 +36,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="welcome.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="60" selection-start="224" selection-end="224" vertical-scroll-proportion="-4.576923">
+            <state line="12" column="58" selection-start="533" selection-end="533" vertical-scroll-proportion="0.2877292">
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+            <state line="54" column="28" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -57,7 +57,7 @@
       <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/form/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="42" selection-start="2141" selection-end="2141" vertical-scroll-proportion="-26.73077">
+            <state line="10" column="94" selection-start="458" selection-end="458" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -75,16 +75,25 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/form/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="32" selection-start="0" selection-end="1216" vertical-scroll-proportion="-15.038462">
+            <state line="10" column="54" selection-start="429" selection-end="429" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="40" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.39680588">
+            <state line="85" column="74" selection-start="3261" selection-end="3261" vertical-scroll-proportion="-14.384615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accessibility.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/accessibility.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="21" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,7 +102,7 @@
       <file leaf-file-name="einfach.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/table/einfach.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="28" selection-start="178" selection-end="178" vertical-scroll-proportion="-3.9230769">
+            <state line="6" column="28" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,20 +127,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/partials/form/reportform.html" />
-        <option value="$PROJECT_DIR$/partials/welcome.html" />
-        <option value="$PROJECT_DIR$/partials/form/login.html" />
-        <option value="$PROJECT_DIR$/partials/form/register.html" />
         <option value="$PROJECT_DIR$/partials/table/einfach.html" />
-        <option value="$PROJECT_DIR$/script/demo.js" />
+        <option value="$PROJECT_DIR$/partials/form/register.html" />
+        <option value="$PROJECT_DIR$/partials/form/login.html" />
+        <option value="$PROJECT_DIR$/style/accessibility.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/script/demo.js" />
+        <option value="$PROJECT_DIR$/partials/welcome.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1680" />
+    <option name="height" value="921" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -159,6 +167,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,6 +183,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html5accessibility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5accessibility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5accessibility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,7 +298,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,17 +343,21 @@
       <created>1368615072813</created>
       <updated>1368615072813</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Projekt erstellt">
+      <created>1369396811603</created>
+      <updated>1369396811603</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1680" height="921" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984913" sideWeight="0.9558011" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2516758" sideWeight="0.95721924" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -403,14 +429,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/partials/table/einfach.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="178" selection-end="178" vertical-scroll-proportion="-3.9230769">
+        <state line="6" column="28" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/welcome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="60" selection-start="224" selection-end="224" vertical-scroll-proportion="-4.576923">
+        <state line="7" column="60" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -422,6 +448,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/partials/form/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="42" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/form/reportform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/form/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="32" selection-start="0" selection-end="1216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="34" selection-start="2570" selection-end="2573" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/table/einfach.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/table/einfach.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/accessibility.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/form/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="54" selection-start="429" selection-end="429" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/form/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="94" selection-start="458" selection-end="458" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/form/reportform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="12" selection-start="159" selection-end="159" vertical-scroll-proportion="-3.9230769">
@@ -429,23 +518,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/form/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="42" selection-start="2141" selection-end="2141" vertical-scroll-proportion="-26.73077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/form/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="32" selection-start="0" selection-end="1216" vertical-scroll-proportion="-15.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="40" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.39680588">
+        <state line="85" column="74" selection-start="3261" selection-end="3261" vertical-scroll-proportion="-14.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="28" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="58" selection-start="533" selection-end="533" vertical-scroll-proportion="0.2877292">
           <folding />
         </state>
       </provider>
