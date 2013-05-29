@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3bcdcc22-0a7a-488e-bb63-5a1397d5cf6b" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/accessibility.css" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\datenaustausch\lsg1.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\datenaustausch\lsg2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\ereignisprotokoll\lsg1.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\ereignisprotokoll\lsg2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\leistungsnachweis\lsg1.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\leistungsnachweis\lsg2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\mitarbeiter\lsg1.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DROPBOX\Dropbox\BA\Impl\html5accessibility\partials\mitarbeiter\lsg2.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/form/login.html" afterPath="$PROJECT_DIR$/partials/form/login.html" />
@@ -347,13 +339,18 @@
       <created>1369396811603</created>
       <updated>1369396811603</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="unnötige Ordnern wurden gelöscht">
+      <created>1369814794129</created>
+      <updated>1369814794129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="921" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -367,7 +364,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -408,7 +404,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projekt erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="unnötige Ordnern wurden gelöscht" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -422,6 +418,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Projekt erstellt" />
+    <MESSAGE value="unnötige Ordnern wurden gelöscht" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

@@ -48,3 +48,21 @@ angular.module("demo", [])
         }
     }
 }])
+    .controller("AccessibilityCtrl", ["$scope", function($scope) {
+    $scope.test = "Scope . . . . . .  . . . . . .  . .  [OK.]";
+
+    $scope.accessKey = true;
+    $scope.autofocus = true;
+
+    $scope.accessKey_a = function(_) {
+        if ($scope.accessKey == true) {return "accesskey=\""+_+"\""} else {return "OFF"}
+    }
+
+    $scope.setAttribute = function(scopeVariable, name, attr) {
+        if (scopeVariable == true) {
+            return name + "=\"" + attr + "\"";
+        }
+    }
+
+
+}])
